@@ -1,9 +1,9 @@
 /**
- * This script synchronize events by time in Sony Vegas (H.264).
+ * This script synchronizes events according to time in Sony Vegas (H.264).
  * You can set 2 parameters (m_timeType and m_startPointType).
  * 
- * Creation date: 06 September 2011
- * Version: 1.0
+ * Creation date: 26 July 2019
+ * Version: 2.0.0
  * Written by Alexander Sokol
  * If you have any questions or propositions please contact
  * with me: mailto:saneea@bk.ru
@@ -13,7 +13,7 @@ using System;
 using System.Windows.Forms;
 using System.IO;
 
-using Sony.Vegas;
+using ScriptPortal.Vegas;
 
 class EntryPoint
 {
